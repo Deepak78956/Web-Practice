@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", Sans-serif;
+}
+html {
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.container {
+  background-color: white;
+  width: 200px;
+  height: 350px;
+  padding: 10px;
+  border-radius: 15px;
+}
+.image {
+  width: 200px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.text-container {
+  width: 200px;
+}
+
+.bold {
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  text-align: center;
+  margin-bottom: 5px;
+}
+.light {
+  font-weight: 400;
+  color: hsl(212, 45%, 89%);
+  text-align: center;
+}
